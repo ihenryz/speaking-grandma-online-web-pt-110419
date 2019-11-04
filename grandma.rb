@@ -20,7 +20,7 @@ def speak_to_grandma(phrase)
     "NO, NOT SINCE 1938!"
   elsif phrase == phrase
     "HUH?! SPEAK UP, SONNY!"
-  else phrase == phrase.downcase
+  else phrase == phrase.capitcalize
     "HUH?! SPEAK UP, SONNY!"
   end
 end
