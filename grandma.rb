@@ -22,7 +22,6 @@ def speak_to_grandma(phrase)
     "NO, NOT SINCE 1938!"
   elsif phrase == phrase
     "HUH?! SPEAK UP, SONNY!"
-  else phrase == phrase.captialize
-    "NO, NOT SINCE 1938!"
+  else "NO, NOT SINCE 1938!"
   end
 end
